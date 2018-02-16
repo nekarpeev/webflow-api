@@ -58,7 +58,7 @@ function getDataInGoogleTable($spreadsheetId, $service, $title_array) {
 }
 
 //setDataInGoogleTable($spreadsheetId, $service, $DataFoGoogleTable);
-$table_data = getDataInGoogleTable($spreadsheetId, $service, $title_array);
+//$table_data = getDataInGoogleTable($spreadsheetId, $service, $title_array);
 
 function updateItemInWebflow($token, $table_data) {
 
